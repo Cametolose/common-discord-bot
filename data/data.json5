@@ -1,0 +1,18 @@
+{
+    "memberid": {
+        "prestigelevel": 1,
+        "messages" : 100,
+        "common_lukes_slowlevel": 10, 
+        "offenses": [
+            {
+                "reason": "Spamming",
+                "date": "2024-06-01T12:00:00Z"
+            },
+            {
+                "reason": "Inappropriate language",
+                "date": "2024-06-15T15:30:00Z"
+            }
+        ],
+        "offense_count": 2
+    }
+}
