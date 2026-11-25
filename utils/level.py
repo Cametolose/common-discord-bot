@@ -54,8 +54,8 @@ def message_xp(userid, msglength):
 
     xp += xp_gain
 
-    xp_for_current_level = level * 10
-    if(xp >= xp_for_current_level):
+    xp_for_next_level = (level + 1) * 10
+    if(xp >= xp_for_next_level):
         level += 1
         levelup = True 
 
