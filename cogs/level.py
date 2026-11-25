@@ -18,7 +18,7 @@ class Level(commands.Cog):
     def __init__(self, bot: commands.Bot) -> None:
         self.bot = bot
 
-    def calculatexp(self, level: int) -> int:
+    def calculatexp(self, level: int) -> float:
         return (level / 10) ** 1.4
 
     async def on_message(self, message: discord.Message):
