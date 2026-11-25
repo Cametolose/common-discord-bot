@@ -10,6 +10,7 @@ class Config:
     # ── Optional / Defaults ───────────────────────────────────────────────────
     PREFIX: str = os.getenv("PREFIX", "!")
 
+    LEVELCHANNELID = 123456 # replace w/ channel id for level up messages
     # Set this to your server's ID during development for instant slash-command
     # updates. Remove (set to None) before deploying to production.
     TEST_GUILD_ID: int | None = (

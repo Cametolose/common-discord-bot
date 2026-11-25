@@ -32,6 +32,10 @@ def info(title: str = "Info", description: str = "") -> discord.Embed:
     return embed
 
 
+def levelup(title = "Level Up", description = "") :
+    embed = _base(Config.COLOR_SUCCESS, f"🎉  {title}", description)
+    return embed    
+
 def default(title: str = "", description: str = "") -> discord.Embed:
     embed = _base(Config.COLOR_DEFAULT, title, description)
     return embed
